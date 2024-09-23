@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ExampleAzureFunctionWithOpenAPI": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7160",
+      "launchBrowser": false
+    }
+  }
+}

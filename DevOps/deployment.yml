@@ -23,7 +23,7 @@ stages:
     jobs:
       - template: jobs/build-dotnet.yml@CICD
         parameters:
-          BuildTargetPath: '**/ExampleAzureFunctionsWithOpenAPI.csproj'
+          BuildTargetPath: '**/ExampleAzureFunctionWithOpenAPI.csproj'
           DotNetVersion: '8.x'
 
   - stage: deploy

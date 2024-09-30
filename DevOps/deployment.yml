@@ -15,7 +15,7 @@ resources:
 
 variables:
   - name: AzureServiceConnection
-    value: 'ExampleAzureServiceConnection'
+    value: 'AzServicePrincipal'
 
 stages:
   - stage: build

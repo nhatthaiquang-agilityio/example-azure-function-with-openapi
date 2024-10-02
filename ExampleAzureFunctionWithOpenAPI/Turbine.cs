@@ -24,7 +24,7 @@ namespace ExampleAzureFunctionWithOpenAPI
         }
 
         [Function("TurbineRepair")]
-        [OpenApiOperation(operationId: "Run")]
+        [OpenApiOperation(operationId: "Turbine")]
         [OpenApiSecurity("function_key", SecuritySchemeType.ApiKey, Name = "code", In = OpenApiSecurityLocationType.Query)]
         [OpenApiRequestBody("application/json", typeof(RequestBodyModel),
             Description = "JSON request body containing { hours, capacity}")]
